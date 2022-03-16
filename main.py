@@ -10,7 +10,7 @@ class Game():
         pygame.display.set_caption("if you're seeing this, something went wrong")
         self.clock = pygame.time.Clock()
 
-        self.level_num = 9
+        self.level_num = 1
         self.max_level = 10
         self.newLevel()
 
